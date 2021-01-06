@@ -7,7 +7,7 @@ import mini from '../img/1_mini.jpg'
 
 const ProductMini = ({name, rating, id}) => {
 
-    const URL = `/product/${id}`
+    const URL = `/catalog-preview/product/${id}`
 
     return (
         <NavLink to={URL} className={`productMini`}>
